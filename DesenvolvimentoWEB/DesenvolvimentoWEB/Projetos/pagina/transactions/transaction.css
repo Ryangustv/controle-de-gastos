@@ -1,0 +1,6 @@
+ol li.gastos{
+    border-left: 10px solid red;
+}
+ol li.entrada{
+    border-left: 10px solid green;
+}
