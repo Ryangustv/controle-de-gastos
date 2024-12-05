@@ -22,16 +22,16 @@
     <form action="">
         <div class="formField">
             <div><label>Email</label></div>
-            <input type="email" name="email" id="email" oninput="onchangeEmail()" placeholder="seu@email.com"/>
-            <div class="error" id="email-required-error">Email obrigatorio</div>
-            <div class="error" id="email-invalid-error">Email invalido</div>
-        </div>
-        <div>
-            <div><label>Senha</label></div>
-            <input type="password" name="password" id="password" oninput="onchangePassword()" placeholder="Senha"/>
-            <div class="error" id="password-required-error">Senha e obrigatoria</div>
-        </div>
-        <div>
+                <input type="email" name="email" id="email" oninput="onchangeEmail()" placeholder="seu@email.com"/>
+                    <div class="error" id="email-required-error">Email obrigatorio</div>
+                    <div class="error" id="email-invalid-error">Email invalido</div>
+                    <div>
+                <div><label>Senha</label></div>
+                    <input type="password" name="password" id="password" oninput="onchangePassword()" placeholder="Senha"/>
+                    </div>
+        <div class="error" id="password-required-error">Senha e obrigatoria</div>
+            </div>
+            <div>
             <button type="button" class="clear" id="recover-password-button" onclick="recoverPassword()" disabled="true">Recuperar Senha</button>
         </div>
         <div>
